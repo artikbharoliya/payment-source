@@ -1,0 +1,7 @@
+.progressBar {
+  display: flex;
+  justify-content: center;
+  border: 0.5px solid rgba(128, 128, 128, 0.346);
+  width: fit-content;
+  padding: 0;
+}

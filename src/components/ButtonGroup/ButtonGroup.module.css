@@ -1,0 +1,18 @@
+.buttonGroup{
+  width: 100%;
+}
+
+.customButton {
+  width: 100%;
+  background-color: #2b4e7b;
+  border-color: #26446b;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.customButton:hover {
+  background-color: #1d3a5f;
+  transition: 0.5s;
+}

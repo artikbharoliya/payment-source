@@ -1,0 +1,15 @@
+.formText {
+  display: flex;
+  flex-direction: column;
+}
+
+.formSubText {
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+.error {
+  font-size: small;
+  color: red;
+  margin-top: 2px;
+}

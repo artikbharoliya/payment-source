@@ -1,0 +1,48 @@
+.progressStep {
+  display: flex;
+  padding: 20px 34px;
+  background-color: white;
+  position: relative;
+  font-weight: 500;
+
+}
+
+.progressStep:after {
+  content: "";
+  position: absolute;
+  right: -17px;
+  bottom: 0;
+  display: block;
+  border: 32px solid transparent;
+  border-left: 16px solid rgb(196, 196, 196);
+  border-right: 0;
+  border-right: 0;
+  z-index: 9;
+}
+
+.progressStep:before {
+  content: "";
+  position: absolute;
+  display: block;
+  right: -16px;
+  bottom: 0;
+  border: 32px solid transparent;
+  border-left: 16px solid #ffffff;
+  border-right: 0;
+  z-index: 10;
+}
+  
+
+.progressStepActive {
+  background-color: #d52b1e;
+  color: white;;
+}
+
+.progressStepActive:after {
+  border-left: 16px solid #d52b1e;
+}
+
+.progressStepActive:before {
+  border-left: 16px solid #d52b1e;
+
+}
