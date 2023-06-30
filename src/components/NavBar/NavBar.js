@@ -25,7 +25,6 @@ const NavBar = () => {
                   <Form.Control
                     placeholder="Search for a bill..."
                     aria-label="Search for a bill"
-                    aria-describedby="basic-addon2"
                   />
                   <Button variant="light" id="button-addon2">
                     <BiSearch />

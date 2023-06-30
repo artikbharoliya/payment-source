@@ -39,7 +39,7 @@ const TaxForm = () => {
                 <Form.Text className="text-muted">
                   We'll never share your email with anyone else.
                 </Form.Text>
-                <Form.Control type="email" placeholder="Email Address" onBlur={handleValidation} className={`${error.email && 'border-danger'}`} />
+                <Form.Control aria-label="Email address" type="email" placeholder="Email Address" onBlur={handleValidation} className={`${error.email && 'border-danger'}`} />
                 {error.email && <div className={`${styles.error}`}>Required</div>}
               </Form.Group>
               <Form.Group className="mb-4" controlId="sinNumber">
@@ -47,12 +47,12 @@ const TaxForm = () => {
                 <Form.Text className="text-muted">
                   999 999 999
                 </Form.Text>
-                <Form.Control type="number" min="900000000" max="999999999" placeholder="999 999 999" onBlur={handleValidation} className={`${error.sinNumber && 'border-danger'}`} />
+                <Form.Control aria-label="Social Insurance Number" type="number" min="900000000" max="999999999" placeholder="999 999 999" onBlur={handleValidation} className={`${error.sinNumber && 'border-danger'}`} />
                 {error.sinNumber && <div className={`${styles.error}`}>Required</div>}
               </Form.Group>
               <Form.Group className="mb-4" controlId="taxpayer">
                 <Form.Label>Taxpayer Name</Form.Label>
-                <Form.Control type="text" placeholder="Full Name" onBlur={handleValidation} className={`${error.taxpayer && 'border-danger'}`} />
+                <Form.Control aria-label="Taxpayer Name" type="text" placeholder="Full Name" onBlur={handleValidation} className={`${error.taxpayer && 'border-danger'}`} />
                 {error.taxpayer && <div className={`${styles.error}`}>Required</div>}
               </Form.Group>
               <Form.Group className="mb-4" controlId="paymentAmount">

@@ -2,7 +2,6 @@ import { Card, ListGroup } from "react-bootstrap";
 import styles from './PaymentInfo.module.css';
 import { BiSolidLockAlt } from 'react-icons/bi';
 
-
 const PaymentInfo = () => {
   return (
     <>
